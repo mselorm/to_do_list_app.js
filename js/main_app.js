@@ -3,7 +3,7 @@ const selorm = $;
 const todoInput = document.querySelector(".todo-input")
 const todoButton = document.querySelector(".todo-button")
 const todolist = document.querySelector(".todo-list")
-
+// .
 selorm(".test").click(function (e) {
 
      e.preventDefault();
