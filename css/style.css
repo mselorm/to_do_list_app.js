@@ -102,3 +102,10 @@ form button:hover{
     transform: translate(14rem) rotateY(20deg);
     opacity: 0.4;
 }
+
+.change{
+    background: black;
+}
+.changed{
+    background: white;
+}

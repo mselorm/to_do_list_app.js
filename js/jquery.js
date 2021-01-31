@@ -6130,7 +6130,7 @@ function domManip( collection, args, callback, ignored ) {
 					}
 				}
 			}
-		}
+		}                                     
 	}
 
 	return collection;

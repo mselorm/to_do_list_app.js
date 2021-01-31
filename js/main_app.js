@@ -1,8 +1,31 @@
 //selectors
-
+const selorm = $;
 const todoInput = document.querySelector(".todo-input")
 const todoButton = document.querySelector(".todo-button")
 const todolist = document.querySelector(".todo-list")
+
+selorm(".test").click(function (e) {
+
+     e.preventDefault();
+    //  selorm("body").css("background", "black");
+    selorm("body").addClass("change");
+    console.log("change class")
+ });           
+
+ selorm(".test2").click(function (e) {
+
+    e.preventDefault();
+   //  selorm("body").css("background", "black");
+   selorm("body").removeClass("change");
+    console.log("changed class")
+});           
+
+
+
+
+
+selorm("test").toggleClass("change", "changed");
+
 
 
 //eventlistners
